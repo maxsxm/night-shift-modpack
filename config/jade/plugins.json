@@ -54,12 +54,6 @@
   "tombstone": {
     "graves": true
   },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -67,6 +61,34 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "waystones": {
     "waystone": true
@@ -81,17 +103,15 @@
     "milk_jar": true,
     "toaster": true
   },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
   "securitycraft": {
     "showowner": true,
     "showmodules": true,
     "info": true,
     "showcustomname": true
-  },
-  "productivebees": {
-    "solitary_nest": true,
-    "jar": true,
-    "canvas_beehive": true,
-    "bee_attributes": true,
-    "productive_bee": true
   }
 }
