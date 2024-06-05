@@ -1,4 +1,3 @@
-
 ["Philip's Ruins"]
 	#Tell the game if to use configs for the ruins.
 	#By default it is disable, you need to enable it. Make sure you restart the game after editing.
@@ -39,4 +38,3 @@
 	#structure philipsruins:lost_soul_dungeon
 	#structure philipsruins:underground_structures
 	UndergroundRuins = false
-
