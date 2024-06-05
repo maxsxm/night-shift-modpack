@@ -1,0 +1,17 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = test1
+  title = test1
+  allow_esc = true
+}
+
+custom_gui {
+  identifier = fmtt_menu_gui
+  title = 
+  allow_esc = true
+}
+

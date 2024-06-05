@@ -1,0 +1,26 @@
+{
+    "board": {
+        "updateFrequencySecs": 45,
+        "villageGenFrequency": 2,
+        "canBreak": true
+    },
+    "bounty": {
+        "flatBonusTimePerBountyInSecs": 0,
+        "shouldHaveTimersAndExpire": true,
+        "objectiveDifficultyModifierPercent": 0,
+        "allowDecreeMixing": true,
+        "maxNumRewards": 2,
+        "reverseMatchingAlgorithm": false
+    },
+    "client": {
+        "showCompletionToast": true,
+        "advancedDebugTooltips": false
+    },
+    "general": {
+        "dataPackExclusions": [
+            "bounty_pools/bountiful/example_pool",
+            "bounty_pools/*/another_example",
+            "bounty_decrees/other/*"
+        ]
+    }
+}
