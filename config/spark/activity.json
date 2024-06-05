@@ -5,6 +5,19 @@
       "name": "maxsxm2",
       "uniqueId": "593a66cd-4ab8-4bb4-901d-6d8ea6be5331"
     },
+    "time": 1717033962371,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xfZHwT3z95"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "maxsxm2",
+      "uniqueId": "593a66cd-4ab8-4bb4-901d-6d8ea6be5331"
+    },
     "time": 1716863255720,
     "type": "Heap dump summary",
     "data": {

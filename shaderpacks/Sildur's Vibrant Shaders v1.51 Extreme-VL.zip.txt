@@ -1,0 +1,7 @@
+#Thu May 30 20:45:12 EDT 2024
+TAA_sharpness=1.0
+raytracedShadows=true
+Lens_Flares=true
+polishedRefl=true
+nMap=2
+Godrays=true
