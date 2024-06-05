@@ -81,6 +81,9 @@
   "mekanism:entity_data_provider": null,
   "mekanism:tooltip_renderer": null,
   "mekanism:remove_builtin": null,
+  "drinkbeer:beer_barrel": null,
+  "drinkbeer:trade_box": null,
+  "drinkbeer:mixed_beer": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
   "supplementaries:hat_stand": null,
@@ -161,5 +164,8 @@
   "ae2:part_name": null,
   "ae2:part_icon": null,
   "ae2:part_tooltip": null,
-  "ae2:part_mod_name": null
+  "ae2:part_mod_name": null,
+  "drinkbeer:beer_barrel": null,
+  "drinkbeer:trade_box": null,
+  "drinkbeer:mixed_beer": null
 }
