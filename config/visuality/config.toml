@@ -1,9 +1,12 @@
+
 [slime]
 	#Slime Blobs Enabled
 	enabled = true
+
 [charge]
 	#Charge Particle Enabled
 	enabled = true
+
 [waterCircle]
 	#Water Circles Enabled
 	enabled = true
@@ -12,3 +15,4 @@
 	#Water Circles Density
 	#Range: 0 ~ 64
 	density = 16
+

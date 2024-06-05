@@ -1,3 +1,4 @@
+
 ["Biome Config for Nature Arise"]
 	"First region weight" = 10
 	"Second region weight" = 8
@@ -9,5 +10,6 @@
 	"Snowy Fir Forest" = true
 	"Old Growth Fir Forest" = true
 	"Flower Taiga" = true
-	"Boreal Forest" = true
 	"Frozen Caves" = true
+	"Boreal Forest" = true
+

@@ -5,3 +5,4 @@ mode = "ALWAYS"
 disabledCompat = []
 #Set to true to have KleeSlabs dump a list of items containing the word 'slab' in their name upon world load
 dumpSlabs = false
+

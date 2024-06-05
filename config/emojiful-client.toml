@@ -1,3 +1,4 @@
+
 [Emojiful]
 	#Enable Emoji Rendering
 	enabled = true
@@ -17,8 +18,10 @@
 		custom = true
 		#Loads datapack emojis provided by the server you join
 		datapack = true
+
 [ProfanityFilter]
 	#Enable Profanity Filter, this will replace bad words with emoji
 	enabled = false
 	#Replacement word for the profanity filter
 	replacement = ":swear:"
+

@@ -1,3 +1,4 @@
+
 [Client]
 	#Displays Nature's Compass information even while chat is open.
 	displayWithChatOpen = true
@@ -9,3 +10,4 @@
 	#The side for information rendered on the HUD. Ex: LEFT, RIGHT
 	#Allowed Values: LEFT, RIGHT
 	overlaySide = "LEFT"
+

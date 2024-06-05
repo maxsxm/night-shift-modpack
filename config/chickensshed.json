@@ -1,0 +1,8 @@
+{
+  "chicksDropFeathers": true,
+  "dropChance": 26000,
+  "droppedItem": "minecraft:feather",
+  "mobList": [
+    "minecraft:chicken"
+  ]
+}

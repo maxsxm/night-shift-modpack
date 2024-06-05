@@ -1,3 +1,4 @@
+
 #Client only settings, mostly things related to rendering
 [client]
 	#Enable Forge to queue all chunk updates to the Chunk Update thread.
@@ -20,3 +21,4 @@
 	calculateAllNormals = false
 	#When enabled, a slightly biased Direction#getNearest calculation will be used to prevent normal fighting on 45 degree angle faces.
 	stabilizeDirectionGetNearest = true
+

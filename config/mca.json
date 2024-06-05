@@ -67,9 +67,17 @@
   "procreationCooldown": 72000,
   "trackVillagerPosition": true,
   "trackVillagerPositionEveryNTicks": 200,
+  "_read_this_before_using_villager_ai": "https://github.com/Luke100000/minecraft-comes-alive/wiki/GPT3-based-conversations",
   "enableVillagerChatAI": false,
   "villagerChatAIIntelligence": 4,
-  "villagerChatAIServer": "http://snoweagle.tk/",
+  "villagerChatAIEndpoint": "https://api.conczin.net/v1/mca/chat",
+  "villagerChatAIToken": "",
+  "villagerChatAIModel": "mistral-small",
+  "villagerChatAISystemPrompt": "",
+  "inworldAIToken": "",
+  "inworldAIResourceNames": {},
+  "enableOnlineTTS": false,
+  "villagerTTSServer": "http://api.rk.conczin.net/",
   "guardSpawnFraction": 0.175,
   "taxesFactor": 0.5,
   "taxSeason": 168000,
@@ -191,19 +199,19 @@
     "minecraft:ancient_city"
   ],
   "destinyLocationsToTranslationMap": {
-    "minecraft:shipwreck_beached": "destiny.story.sailing",
-    "default": "destiny.story.travelling"
+    "default": "destiny.story.travelling",
+    "minecraft:shipwreck_beached": "destiny.story.sailing"
   },
   "professionConversionsMap": {},
   "shaderLocationsMap": {
-    "sirben": "mca:shaders/post/sirben.json",
-    "color_blind": "minecraft:shaders/post/desaturate.json"
+    "color_blind": "minecraft:shaders/post/desaturate.json",
+    "sirben": "mca:shaders/post/sirben.json"
   },
   "playerRendererBlacklist": {
-    "firstpersonmod": "arms",
-    "firstperson": "arms",
+    "epicfight": "all",
     "morph": "arms",
-    "epicfight": "all"
+    "firstperson": "arms",
+    "firstpersonmod": "arms"
   },
   "enabledTraits": {
     "SIRBEN": true,
@@ -220,7 +228,9 @@
     "ELECTRIFIED": true,
     "COELIAC_DISEASE": true,
     "UNKNOWN": true,
-    "DWARFISM": true
+    "DWARFISM": true,
+    "WEAK": true,
+    "TOUGH": true
   },
   "taxesMap": {
     "minecraft:emerald": 1.0

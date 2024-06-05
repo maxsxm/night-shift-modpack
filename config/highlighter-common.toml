@@ -1,5 +1,7 @@
+
 #Client Configuration
 [client]
+
 	[client.options]
 		# If new item markers should be cleared when the inventory is closed.
 		clear_on_close = true
@@ -14,3 +16,4 @@
 		# The position of new item markers.
 		#Allowed Values: UpperLeft, UpperRight, LowerLeft, LowerRight
 		icon_position = "UpperLeft"
+

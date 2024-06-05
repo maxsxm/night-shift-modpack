@@ -10,7 +10,8 @@ teleport_xp = true
 vertical_range = 16
 #Trader entities disabled from being found by the trading post.
 #Modders may add their own incompatible trader entities via the "tradingpost:blacklisted_traders" entity tag.
-#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 trader_blacklist = []
 #Close trading post interface when all traders have become unavailable.
 close_empty_screen = true
+

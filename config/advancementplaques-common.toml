@@ -1,5 +1,7 @@
+
 #Client Configuration
 [client]
+
 	[client.visual_options]
 		# If plaques should show on the top of the screen.
 		on_top = true
@@ -21,6 +23,7 @@
 		title_color = "#FF332200"
 		# Text color to use for advancement names on plaques. Can be entered as an 8-digit hex color code #AARRGGBB for convenience. If Prism library is installed, any Prism color definition is supported.
 		name_color = "#FFFFFFFF"
+
 	[client.duration_options]
 		# Duration of the shiny effect fade in for tasks.
 		#Range: 0.1 ~ 3.0
@@ -49,6 +52,7 @@
 		# Duration of the plaques for challenges (minus the effect fade in/out durations).
 		#Range: 2.0 ~ 10.0
 		challenge_duration = 7.0
+
 	[client.functionality_options]
 		# Blacklist of advancements to never show plaques for.  Takes precedence over whitelist if they conflict.
 		# Options:
@@ -68,3 +72,4 @@
 		# Volume of challenge sounds.  Set to 0 to mute.
 		#Range: 0.0 ~ 1.0
 		challenge_volume = 1.0
+

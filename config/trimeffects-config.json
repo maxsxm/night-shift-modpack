@@ -1,6 +1,4 @@
 {
-  "secondsMaximum": 14.0,
-  "secondsMinimum": 12.0,
   "effects": {
     "spire": "strength",
     "eye": "regeneration",

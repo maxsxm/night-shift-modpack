@@ -1,3 +1,4 @@
+
 #General options
 [general]
 	#Enable FPS Reducer features.
@@ -45,6 +46,7 @@
 	#Profile (0:custom, 1:modest-eco, 2:eco, 3:cooling-low, 4:cooling-high)
 	#Range: 0 ~ 4
 	profile = 1
+
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]
 	#Range: > -2147483648
@@ -79,6 +81,7 @@
 	centerLeft_X = 2
 	#Range: > -2147483648
 	centerLeft_Y = 0
+
 #Alignments of HUD strings.
 [hud_alignment]
 	#Range: 0 ~ 2
@@ -97,6 +100,7 @@
 	bottomLeft = 0
 	#Range: 0 ~ 2
 	centerLeft = 0
+
 #Extra options
 [extra]
 	#HUD color
@@ -117,7 +121,9 @@
 	cpuUsageThread = 0
 	#Permit to set IdleFPS=1.
 	allowOneFps = false
+
 #Debug options
 [debug]
 	#Enable debug log
 	debugLog = false
+

@@ -20,7 +20,4 @@ sleepingBagBreakChanceLuckMultiplier = 0.0
 #The status effects to apply to players after using the sleeping bag.
 #Format: effect;duration(secs);power
 sleepingBagEffects = []
-#If enabled, attempting to sleep in hammocks stops phantoms from spawning.
-hammocksStopPhantoms = true
-#If enabled, attempting to sleep in sleeping bags stops phantoms from spawning.
-sleepingBagsStopPhantoms = true
+

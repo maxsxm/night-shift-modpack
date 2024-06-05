@@ -1,5 +1,5 @@
 {
-  "configVersion": 6,
+  "configVersion": 5,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "create:rope_pulley",
@@ -25,10 +25,7 @@
     "create:gantry_contraption",
     "minecraft:boat",
     "minecraft:firework_rocket",
-    "create:carriage_contraption",
-    "mts:builder_existing",
-    "mts:builder_rendering",
-    "mts:builder_seat"
+    "create:carriage_contraption"
   ],
   "disableF3": false,
   "skipEntityCulling": false,

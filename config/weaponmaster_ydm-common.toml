@@ -1,3 +1,4 @@
+
 [model_options]
 	#put main and off hand items after x tick to display on the body! 100 tick ~ 5 sec
 	#Range: > 0
@@ -36,16 +37,16 @@
 	off_hand = false
 	#quiver
 	quiver = false
+	#Body part attachment to a slot
+	attachment = "1-body,2-body,3-rleg,4-lleg,5-rleg,6-lleg,7-body,8-body,9-rleg,shield-body,banner-head,offhand-lleg,quiver-body"
+	#Which active slot and equipment should move the item model away
+	slot_mover = "none,chest;z;+_none,chest,1;z;+_none,legs;x;-_none,legs;x;+_none,legs,3;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs,3,5;x;-_none;z;-_none;z;-_none,legs,4,6;x;+_none;z;+"
 	#Players can hide items with the toggle settings
 	canhideitems = true
 	#Players can change the position and rotation of the displayed items
 	can_change_pos_and_rot = true
 	#Players can change the attachment of the slots
 	can_change_attachment = true
-	#Body part attachment to a slot
-	attachment = "1-body,2-body,3-rleg,4-lleg,5-rleg,6-lleg,7-body,8-body,9-rleg,shield-body,banner-head,offhand-lleg,quiver-body"
-	#Which active slot and equipment should move the item model away
-	slot_mover = "none,chest;z;+_none,chest,1;z;+_none,legs;x;-_none,legs;x;+_none,legs,3;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs,3,5;x;-_none;z;-_none;z;-_none,legs,4,6;x;+_none;z;+"
 	#Players can change the movers of the slots
 	can_change_movers = true
 	#Players can change their unique item settings
@@ -327,7 +328,7 @@
 		y_position37 = 0
 		#z position38
 		#Range: > -2147483648
-		z_position38 = 0
+		z_position38 = 15
 		#x rotation36
 		#Range: > -2147483648
 		x_rotation36 = 0
@@ -340,3 +341,4 @@
 		#scale12
 		#Range: > -100
 		scale12 = 0
+

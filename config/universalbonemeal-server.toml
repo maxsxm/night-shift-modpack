@@ -28,3 +28,4 @@ allow_dirt = true
 allow_cactus = true
 #Allow bone meal to work on dead bushes making them spread around.
 allow_dead_bush = true
+

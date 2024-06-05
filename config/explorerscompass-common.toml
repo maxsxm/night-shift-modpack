@@ -1,3 +1,4 @@
+
 [General]
 	#Allows a player to teleport to a located structure when in creative mode, opped, or in cheat mode.
 	allowTeleport = true
@@ -11,3 +12,4 @@
 	#The maximum number of samples to be taken when searching for a structure.
 	#Range: 0 ~ 100000000
 	maxSamples = 100000
+

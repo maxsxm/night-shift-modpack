@@ -1,3 +1,4 @@
+
 #General settings for the mod.
 [general]
 	#Should having fire resistance stop things from being on fire visually?
@@ -31,3 +32,4 @@
 	punchOutFlames = true
 	#Can players put out fire with bottled water?
 	extinguishWithBottledWater = true
+
