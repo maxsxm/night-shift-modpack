@@ -1,4 +1,3 @@
-
 [settings]
 	#General Settings
 	#Maximum distance from where Blocks and Entities can be picked up
@@ -53,7 +52,6 @@
 	pickupPlayers = true
 	#Whether players in Survival Mode can pick up unbreakable blocks. Creative players always can.
 	pickupUnbreakableBlocks = false
-
 [whitelist]
 	#Whitelist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config
 	#Entities that CAN be picked up (useWhitelistEntities must be true)
@@ -62,7 +60,6 @@
 	allowedBlocks = []
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)
 	allowedStacking = []
-
 [blacklist]
 	#Blacklist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config
 	#Blocks that cannot be picked up
@@ -71,11 +68,9 @@
 	forbiddenEntities = ["minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*", "securitycraft:*", "taterzens:npc", "easy_npc:*", "bodiesbodies:dead_body"]
 	#Entities that cannot have other entities stacked on top of them
 	forbiddenStacking = ["minecraft:horse"]
-
 [customPickupConditions]
 	#Custom Pickup Conditions. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Custom-Pickup-Condition-Config
 	#Custom Pickup Conditions for Blocks
 	customPickupConditionsBlocks = []
 	#Custom Pickup Conditions for Entities
 	customPickupConditionsEntities = []
-

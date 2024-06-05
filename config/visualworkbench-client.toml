@@ -5,4 +5,3 @@ rotate_ingredients = "CLOSEST_PLAYER"
 flat_rendering = false
 #Render the result of the crafting operation in addition to crafting table contents.
 render_result = true
-

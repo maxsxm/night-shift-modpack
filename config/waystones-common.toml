@@ -1,4 +1,3 @@
-
 [general]
 	#List of waystone origins that should prevent others from editing. PLAYER is special in that it allows only edits by the owner of the waystone.
 	restrictedWaystones = ["PLAYER"]
@@ -13,7 +12,6 @@
 	#The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
 	#Range: > -2147483648
 	scrollUseTime = 32
-
 [teleports]
 	#Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.
 	enableCosts = true
@@ -29,7 +27,6 @@
 	transportLeashed = "ENABLED"
 	#List of entities that cannot be teleported, either as pet, leashed, or on warp plates.
 	entityDenyList = ["minecraft:wither"]
-
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
 	inventoryButton = ""
@@ -45,7 +42,6 @@
 	#The y position of the inventory button in the creative menu.
 	#Range: > -2147483648
 	creativeInventoryButtonY = 33
-
 [worldGen]
 	#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
 	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, DEEPSLATE, END_STONE, BIOME
@@ -54,7 +50,7 @@
 	#Range: > -2147483648
 	chunksBetweenWildWaystones = 25
 	#List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList are used.
-	wildWaystonesDimensionAllowList = ["minecraft:the_nether", "minecraft:overworld", "minecraft:the_end"]
+	wildWaystonesDimensionAllowList = ["minecraft:the_end", "minecraft:overworld", "minecraft:the_nether"]
 	#List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
 	wildWaystonesDimensionDenyList = []
 	#Set to 'PRESET_FIRST' to first use names from the nameGenerationPresets. Set to 'PRESET_ONLY' to use only those custom names. Set to 'MIXED' to have some waystones use custom names, and others random names.
@@ -67,11 +63,9 @@
 	#Set to REGULAR to have waystones spawn in some villages. Set to FREQUENT to have waystones spawn in most villages. Set to DISABLED to disable waystone generation in villages. Waystones will only spawn in vanilla or supported villages.
 	#Allowed Values: DISABLED, REGULAR, FREQUENT
 	spawnInVillages = "REGULAR"
-
 [client]
 	#If enabled, the text overlay on waystones will no longer always render at full brightness.
 	disableTextGlow = false
-
 [compatibility]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
 	journeyMap = true
@@ -81,4 +75,3 @@
 	blueMap = true
 	#If enabled, Waystones will add markers for waystones and sharestones to Dynmap.
 	dynmap = true
-

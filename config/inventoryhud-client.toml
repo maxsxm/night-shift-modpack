@@ -1,4 +1,3 @@
-
 #Settings for Inventory HUD
 [inventoryhud]
 	#Inventory HUD mini mode
@@ -9,14 +8,13 @@
 	#Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = true
+	byDefault = false
 	#Animate recently picked up items
 	animatedInv = false
 	#Hide background if inventory is empty
 	hideBackground = false
 	#Show Inventory HUD when debug menu is open
 	invWithDebug = true
-
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
@@ -52,7 +50,6 @@
 	armWithDebug = true
 	#Show arrows count when no weapon in your hands
 	showArrowsWithoutWeapon = true
-
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
@@ -78,7 +75,6 @@
 	potWithDebug = true
 	#Show all levels of effects
 	potionLevels = false
-
 #DONT TOUCH THESE FIELDS!
 [positions]
 	#Inventory HUD vertical align
@@ -213,11 +209,9 @@
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"
-
 #Notification settings
 [notification]
 	#Last notified mod version
-	lastNotifiedVersion = "18.0.5"
+	lastNotifiedVersion = "5.0.0"
 	#Notify more than once
 	keepNotifying = true
-

@@ -7,7 +7,7 @@ exampleMultilineString = "Hello World"
 #Allowed Values: Hello, World
 exampleEnum = "Hello"
 exampleStringList = ["Hello", "World"]
-exampleResourceLocationSet = ["minecraft:dirt", "minecraft:diamond"]
+exampleResourceLocationSet = ["minecraft:diamond", "minecraft:dirt"]
 exampleIntList = [12, 24]
 exampleEnumList = ["Hello", "World"]
 
@@ -17,4 +17,3 @@ exampleEnumList = ["Hello", "World"]
 	innerField = "I am inside"
 	#Range: -3.4028234663852886E38 ~ 3.4028234663852886E38
 	exampleFloat = 42.84000015258789
-

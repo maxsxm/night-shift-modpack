@@ -1,8 +1,5 @@
-
 #Client-only settings
 [client]
-	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
-	enableLegacyGui = false
 	#Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 	enableToolCycling = true
 	#Allows tool cycling using keybinding only (Default Z)
@@ -15,8 +12,8 @@
 	renderBackpackWithElytra = true
 	#Disable backpack rendering
 	disableBackpackRender = false
-	#Sends a message to the player on death with backpack coordinates
-	sendBackpackCoordinatesMessage = true
+	#Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
+	enableLegacyGui = false
 
 	#The position of the Overlay on the screen
 	[client.overlay]
@@ -28,4 +25,3 @@
 		#Offsets to up
 		#Range: > -2147483648
 		offsetY = 30
-

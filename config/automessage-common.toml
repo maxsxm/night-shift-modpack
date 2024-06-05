@@ -1,0 +1,13 @@
+[AutoMessage]
+	# The messages to be sent
+	MESSAGES = ["§2Thank you very much for downloading Essentials Mods§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"]
+	# Should we attach a link to this message?
+	LINKS = ["https://www.bisecthosting.com/lupin?r=automessage"]
+	# How frequently / after how long should the message be sent?
+	INTERVALS = [7]
+	# How many times should the message be sent per session? 0 = infinite
+	SOFT_LIMITS = [1]
+	# How many times should the message be sent EVER? 0 = infinite
+	HARD_LIMITS = [1]
+	# Should AutoMessage be Enabled? default: false
+	AM_ENABLED = true

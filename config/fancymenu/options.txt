@@ -25,10 +25,10 @@ B:game_intro_fade_out = 'true';
 ##[window]
 
 B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '/config/fancymenu/assets/fmtt.icns';
-S:custom_window_icon_32 = '/config/fancymenu/assets/fmtt.png';
-S:custom_window_title = 'From Magic To Tech';
-S:custom_window_icon_16 = '/config/fancymenu/assets/fmtt_16.png';
+S:custom_window_icon_macos = '';
+S:custom_window_icon_32 = '';
+S:custom_window_title = '';
+S:custom_window_icon_16 = '';
 
 
 ##[multiplayer_screen]

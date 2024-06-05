@@ -6,13 +6,13 @@
     "animal_owner": true,
     "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
     "energy_storage": true,
-    "entity_armor.max_for_render": 20,
+    "entity_armor.max_for_render": 40,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -35,6 +35,7 @@
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
+    "block_states": false,
     "lectern": true,
     "entity_armor": true,
     "harvest_tool.creative": false,
@@ -51,75 +52,18 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "tombstone": {
+    "graves": true
+  },
   "jade": {
     "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
     "distance": false,
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
-  "pipez": {
-    "pipe": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "waystones": {
     "waystone": true
-  },
-  "gravestone": {
-    "grave": true
-  },
-  "corpse": {
-    "corpse": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
-  },
-  "securitycraft": {
-    "showowner": true,
-    "showmodules": true,
-    "info": true,
-    "showcustomname": true
   }
 }
