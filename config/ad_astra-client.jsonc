@@ -17,7 +17,7 @@
     "spaceMuffler": true,
     "radio": {
         // Range: 0 - 100
-        "volume": 20,
+        "volume": 10,
         "favorites": [
             "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_96.mp3"
         ]
